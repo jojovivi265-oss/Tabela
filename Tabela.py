@@ -634,28 +634,4 @@ if __name__ == '__main__':
     port = int(os.environ.get('FICHA_PORT', '8080'))
     debug = os.environ.get('FICHA_DEBUG', 'False').lower() in ('1', 'true', 'yes')
     app.run(host=host, port=port, debug=debug)
-#   T a b e l a  
- g i t  
- i n i t  
- g i t  
- a d d  
- S i t e D a s F i c h a s . p y  
- g i t  
- c o m m i t  
- - m  
- f i r s t   c o m m i t  
- g i t  
- b r a n c h  
- - M  
- m a i n  
- g i t  
- r e m o t e  
- a d d  
- o r i g i n  
- h t t p s : / / g i t h u b . c o m / j o j o v i v i 2 6 5 - o s s / T a b e l a . g i t  
- g i t  
- p u s h  
- - u  
- o r i g i n  
- m a i n  
- 
+    app.run(host=host, port=port, debug=debug)
